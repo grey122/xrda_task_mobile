@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:xrda_task_mobile/constants/icon_assets.dart';
+import 'package:xrda_task_mobile/routes/app_pages.dart';
 import 'package:xrda_task_mobile/views/screens/widgets/svgs.dart';
 
 class SignUpCtrl extends GetxController {
@@ -52,7 +53,8 @@ class SignUpCtrl extends GetxController {
   void continues() {
     if (formKey.currentState!.validate()) {
       formKey.currentState?.save();
-      Get.snackbar("Successful", "Good work ${textCtrl.text}");
+      // Get.snackbar("Successful", "Good work ${textCtrl.text}");
+      Get.toNamed(Routes.otp, arguments: textCtrl.text);
       // isLoginng.value = true;
       // authCtrl.login(
       //   emailController.text.trim(),
