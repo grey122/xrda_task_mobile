@@ -3,6 +3,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:xrda_task_mobile/views/binding/sign_up_binding.dart';
+import 'package:xrda_task_mobile/views/screens/otp_Screen.dart';
 import 'package:xrda_task_mobile/views/screens/sign_up.dart';
 import 'package:xrda_task_mobile/views/screens/splash.dart';
 
