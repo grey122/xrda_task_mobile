@@ -1,8 +1,7 @@
-import 'package:cloud_functions/cloud_functions.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+// import 'package:firebase_dynamic_links/firebase_dynamic_links.dart';
 
 FirebaseAuth auth = FirebaseAuth.instance;
-FirebaseFunctions functions =
-    FirebaseFunctions.instanceFor(region: "us-central1");
 final Future<FirebaseApp> firebaseInitialization = Firebase.initializeApp();
+// FirebaseDynamicLinks fBDynamicLink = FirebaseDynamicLinks.instance;

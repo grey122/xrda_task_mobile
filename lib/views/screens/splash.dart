@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:xrda_task_mobile/constants/color_selection.dart';
+// the first screen that pops up, you might not see this screen because is too fast
+// if the user is validated we route to home page else sign up page
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
