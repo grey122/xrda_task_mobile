@@ -1,7 +1,7 @@
 # xrda_task_mobile
 
-Firebase Deeplinkiing, dynamic Linking,  Email Verfication and Phone Verfiication.
-
+**Firebase Deeplinkiing, dynamic Linking,  Email Verfication and Phone Verfiication.
+**
 
 
 The project I undertook showcases a comprehensive integration of various advanced features, contributing to its overall functionality and user experience. Specifically, the project heavily incorporates Firebase Deep Linking, Dynamic Linking, Email Verification, and Phone Verification.
